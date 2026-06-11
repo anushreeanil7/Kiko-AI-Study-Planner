@@ -66,4 +66,4 @@ Institute of Aeronautical Engineering, Hyderabad
 This project is intended for educational and portfolio purposes.
 
 ## Deployment Link 
-(KikoAI)[https://kiko-3szsq05yy-anushrees-projects-57017766.vercel.app/]
+[KikoAI](https://kiko-3szsq05yy-anushrees-projects-57017766.vercel.app/)
