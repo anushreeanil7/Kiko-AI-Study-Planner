@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiko - AI Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<body>
+    <div class="welcome">
+        <div class="sidebar">
+            <ul>
+                <p>AI Study Planner</p>
+                <li><i class="fa-solid fa-chart-column" style="margin-right: 10px;"></i><a href="home.html">Dashboard</a></li>
+                <li><i class="fa-regular fa-calendar" style="margin-right: 10px;"></i><a href="planner.html">Planner</a></li>
+                <li><i class="fa-solid fa-hourglass" style="margin-right: 10px;"></i><a href="timer.html">Pomodoro Timer</a></li>
+                <li id="logoutBtn"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Hello, User</h1>
+            <p>Let the learning journey begin!</p>
+            <div class="boxes">
+                <div class="todo-list">
+                    <h2>Today's task</h2>
+                    <br><br>
+                    <div class="task-input-row">
+                        <input type="text" id="taskInput" placeholder="Add a task">
+                    </div>
+                    <ul id="taskList"></ul>
+
+                    <button id="clearTasksBtn"><i class="fa-solid fa-trash"></i> Clear All Tasks</button>
+                </div>
+                <div class="ai-insight">
+                    <h2>AI Insight</h2>
+                    <div class="ai-content">
+                        <div class="ai-text">
+                            <div class="ai-title"><i class="fa-solid fa-brain"></i>SMART RECOMMENDATION</div>
+                            <div class="aiMessage-box">
+                                 <p id="aiMessage">
+                                Add tasks to get smart study recommendations.
+                            </p>
+                            </div>
+                            <br>
+                            <br>
+                            <hr>
+
+                            <p class="ai-footer">
+                                Based on your current task activity
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
